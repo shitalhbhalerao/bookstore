@@ -72,10 +72,12 @@ No setup required. Access H2 console at:
 To use MySQL instead of H2, update `application.properties`:
 
 ```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/bookstore
-spring.datasource.username=root
-spring.datasource.password=yourpassword
-spring.jpa.hibernate.ddl-auto=update
+spring.h2.console.enabled=true
+spring.datasource.url=jdbc:h2:mem:bookstore
+spring.datasource.driver-class-name=org.h2.Driver
+spring.datasource.username=crni99
+spring.datasource.password=og
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
 ```
 
 ---
@@ -109,20 +111,7 @@ Run unit tests:
 mvn test
 ```
 
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
-Feel free to use and modify for learning purposes.
 
 ---
 
 👨‍💻 Developed by **[Shital Bhalerao](https://github.com/shitalhbhalerao)**
-
-```
-
----
-
-👉 Do you want me to also create a **LICENSE file (MIT)** and a **sample API collection (Postman JSON)** so others can test your endpoints easily?
-```
