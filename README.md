@@ -96,7 +96,7 @@ spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
 ```json
 {
   "name": "Spring Boot in Action",
-  "author": "Craig Walls",
+  "author": "Shital Bhalerao",
   "price": 499.99
 }
 ```
