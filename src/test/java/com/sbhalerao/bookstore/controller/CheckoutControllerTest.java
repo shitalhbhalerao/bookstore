@@ -1,4 +1,4 @@
-package com.crni99.bookstore.controller;
+package com.sbhalerao.bookstore.controller;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.doNothing;

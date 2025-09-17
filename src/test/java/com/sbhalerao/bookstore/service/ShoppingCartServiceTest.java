@@ -1,4 +1,4 @@
-package com.crni99.bookstore.service;
+package com.sbhalerao.bookstore.service;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.mock;
